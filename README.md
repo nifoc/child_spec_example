@@ -7,7 +7,7 @@ Erlang/OTP 20 [erts-9.2] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:
 Elixir 1.6.0-rc.0 (182c730bd) (compiled with OTP 20)
 ```
 
-Clone the repository and simply run `mix dialyzer`. The following warnings will be emitted:
+Clone the repository and simply run `mix deps.get ; mix dialyzer`. The following warnings will be emitted:
 
 ```
 lib/child_spec_example/warning_spec.ex:4: Invalid type specification for function 'Elixir.ChildSpecExample.WarningSpec':child_spec/1. The success typing is (_) -> #{'id':='Elixir.ChildSpecExample.WarningSpec', 'restart':='permanent', 'shutdown':=5000, 'start':={'Elixir.ChildSpecExample.WarningSpec','start_link',[]}, 'type':='worker'}
