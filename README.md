@@ -1,7 +1,7 @@
 # ChildSpecExample
 
 ```
-$ elixr -v
+$ elixir -v
 Erlang/OTP 20 [erts-9.2] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
 
 Elixir 1.6.0-rc.0 (182c730bd) (compiled with OTP 20)
